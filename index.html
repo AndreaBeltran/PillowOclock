@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario de contacto</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <br/>
+        <p>LOGO  PILLOW O'CLOCK </p>
+      </header>
+    
+    <section class="pillow">
+        <p class="sect1"> Gracias por interesarte en mejorar el sueno de tu hijo y el tuyo.</p>
+
+        <p class="sect2"> Actualmente estamos en construccion pero puedes contactarnos directamente a:</p class="sect2">
+        <p class="sect1">giu@pillow.oclock.com</p>
+        <p class="sect2"> O si deseas, dejanos tus datos para que podamos contactarte y proporcionarte una solucion.</p class="sect2">
+
+    </section>
+   <br/>
+            <div class="arrow">&#10140;</div>
+   <br/><br/>
+    <div>
+        <form action="post.php" method="post" id="formulario" class="contact-form">
+    
+                <input type="text" id="parents" class="form-control my-3" name="nameP"  placeholder="Nombre del padre" required>
+                <input type="text" id="parents" class="form-control my-3" name="nameM"  placeholder="Nombre de la madre" required>
+                <input type="text" id="son" class="form-control my-3" name="son"  placeholder="Nombre del hijo/a"required >
+                <input type="number" id="age" class="form-control my-3" name="age" placeholder="Edad" required>
+                <input type="tel" id="phone" class="form-control my-3" name="phone"  placeholder="Telefono o Celular" required>
+                <input type="email" id="email" class="form-control my-3" name="email"  placeholder="Email" required>
+                <textarea name="message" id="message" class="form-control my-3"  placeholder="¿Qué estás viviendo con el sueño de tus pequeños?" required></textarea>
+               
+                <button class="btn btn-primary" type="submit" id="send">Enviar</button>
+              
+        </form>
+    </div>
+    <div class="mt-3" id="response" >
+    </div>
+    <footer>
+        <p class="sect2">Recuerda seguirnos en nuestras redes sociales</p class="sect2">
+        <div class="social">
+            <i class="fab fa-instagram"> </i>  <a href="https://www.instagram.com/pillow.oclock/" style="color:#ffff">  pillow.oclock</a> 
+            <i class="fab fa-facebook-square"> </i> <a href="https://www.facebook.com/pillowoclock-111387400478757/" style="color:#ffff">pillow.oclock</a>
+        </div>
+    </footer>
+
+     </body>
+</html>
