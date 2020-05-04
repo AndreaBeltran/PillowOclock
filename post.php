@@ -22,3 +22,4 @@ $carta .= "Mensaje: $message \n";
 
     // Enviando Mensaje
     mail($to, $asunto, $carta);
+    header('Location:index.html');
